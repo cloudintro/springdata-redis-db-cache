@@ -12,8 +12,9 @@ spring:
     password:
     driver-class-name: org.h2.Driver
   cache:
-    type: redis
+    type: redis # no need to set type if there is only one cache service is added
     redis:
       host: localhost
       port: 6379
       cache-null-values: true
+      time-to-live: 86400 # 24 hours

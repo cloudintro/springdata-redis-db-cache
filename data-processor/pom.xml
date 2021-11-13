@@ -14,7 +14,7 @@
     <name>data-processor</name>
     <description>Demo project for Spring Data Redis</description>
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
